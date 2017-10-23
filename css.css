@@ -29,6 +29,7 @@ body {
 	background-color: green; 
 	font-size: .8em;
 	text-align: 0 auto;
+	color: brown;
 
 }
 	
@@ -49,7 +50,8 @@ body {
 		background-color: yellow;
 		font-size:  1em;
 		text-align: 0 auto;
-	}
+		color: blue;
+		}
 
 	img {
 		width: 75%;
@@ -64,6 +66,7 @@ body {
 		background-color: red;
 		font-size: 1.5em;
 		text-align: 0 auto;
+		color: blue;
 	}
 	
 	
