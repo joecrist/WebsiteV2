@@ -1,0 +1,77 @@
+
+/* this is going to for some boxes that i'll put on the pages. They are all going to be white on the background with color text. */
+
+body{
+	background-color: green;
+	font-size: .7em;
+	text-align: 0 auto;
+	text-align: center;
+}
+.box {
+	width: 500px: 
+	height: 500px;
+	border-radius: 10px;
+}
+.button{
+	background-color: white;
+	margin: 0 auto;
+	margin: center;
+
+}
+
+
+/* this is going to be for creating simple breakpoints and @media with some color so I can see the difference I'll go in order from mobile to tablet to PC/laptop */
+
+
+/* this is for mobile phones */
+@media screen and (min-width:480px) {
+body {
+	background-color: green; 
+	font-size: .8em;
+	text-align: 0 auto;
+
+}
+	
+
+	img {
+		width: 70%;
+		margin: center;
+
+	}
+	text {
+
+	}
+
+}
+/* for tablets and phones that are to big for a human head */
+@media screen and (min-width: 700px) {
+	body {
+		background-color: blue;
+		font-size:  1em;
+		text-align: 0 auto;
+	}
+
+	img {
+		width: 75%;
+		margin: center;
+	}
+}
+
+
+/*for laptops and desktops */
+@media screen and (min-width: 990px) {
+	body {
+		background-color: red;
+		font-size: 1.5em;
+		text-align: 0 auto;
+	}
+	
+	
+	img {
+		width: 80%;
+		margin: center;
+	}
+
+	}
+
+}
